@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Raleway", sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.navbar-links{
+    list-style: none;
+    display: flex;
+}
+.navbar-links img{
+    width: 30px;
+    height: 30px;
+}
+.navbar-links li{
+    padding-left: 40px;
+}
+.navbar-links__item{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    color: rgba(112, 65, 22, 1);
+}
+.header__divider{
+    height: 300px;
+    background-image: url(../img/Книжный3.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section-main-info__text-image{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.section-main-info__text-image img{
+    width: 300px;
+    height: 500px;
+    border-radius: 0px 25px 25px 0px;
+}
+.section-main-info-text{
+    text-indent: 2px;
+    text-align:justify;
+    padding: 50px;
+    margin-right: 60px;
+    font-size: 20px;
+}
+.main__title{
+    font-weight: 800;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.section-popular-books{
+    text-align: center;
+}
+
+.carousel img{
+    border-radius: 25px;
+}
+.section-book-description__info{
+    display: flex;
+    align-items: start;
+    margin-top: 50px;
+}
+.section-book-descroption__info-text{
+    margin-left: 100px;
+}
+footer{
+    text-align: center;
+}
+
+
+#slider img {
+    width: 200px;
+    height: 300px;
+}
+
+.card-img-top{
+    width: 300px;
+    height: 400px;
+}
+.card{
+    padding: 50px;
+    padding-left: 50px;
+}
+
+
+
+
+
+.section-cataloge-wrapper{
+    display: flex;
+
+}
+
+.section-cataloge__new-books-name{
+    text-align: center;
+}
+.section-cataloge__new-books-price{
+    text-align: center;
+}
+
+.button-open{
+    text-decoration: none;
+    background-color: rgba(112, 65, 22, 1);
+    color: white;
+    width: 250px;
+    height: 20px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.section-cataloge__new-books__item{
+    text-align: center;
+}
+.section-cataloge__new-books__item img{
+    width: 150px;
+    height: 200px;
+}
